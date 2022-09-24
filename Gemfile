@@ -67,4 +67,15 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+
+end
+
+# Run against this stable release
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'factory_bot_rails'
+  gem 'webdrivers', '~> 5.0', require: false
+  gem 'faker'
 end
