@@ -79,3 +79,9 @@ group :development, :test do
   gem 'webdrivers', '~> 5.0', require: false
   gem 'faker'
 end
+
+group :development do
+  # 以下の２つを記述
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
