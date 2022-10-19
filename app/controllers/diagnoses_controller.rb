@@ -4,5 +4,6 @@ class DiagnosesController < ApplicationController
   end
 
   def create
+
   end
 end
