@@ -12,10 +12,12 @@
   </head>
 
   <body>
-      <header class="w-ful bg-backcolor h-48" >
-        <h1 class = "text-center text-9xl font-mono pt-6 text-textcolor">ボールと靴適正診断表</h1>
+      <header>
+        <div class="w-full bg-buttoncolor h-25 pb-3">
+          <h1 class = "pt-3 pl-6 text-xl font-bold text-textcolor">ボールと靴適正診断表</h1>
+        </div>
       </header>
-    <main class="container mx-auto mt-28 px-5 flex bg-backcolor">
+    <main class="mx-auto pt-10 w-full bg-contentcolor h-screen ">
       <%= yield %>
     </main>
   </body>

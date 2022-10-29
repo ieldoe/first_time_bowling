@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: 'diagnoses#create'
-  resources :diagnoses, only: %i[ show ]
+  resource :diagnoses, only: %i[ show ]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
