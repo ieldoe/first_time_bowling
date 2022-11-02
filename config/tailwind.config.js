@@ -9,6 +9,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        // 'カラー名': 'カラーコード'
+        'dark-green': '#06bbbc',
+        'backcolor': '#fffffe',
+        'textcolor': '#272343',
+        'buttoncolor': '#ffd803',
+        'contentcolor': '#e3f6f5'
+      },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
