@@ -1,17 +1,17 @@
-<div class= "w-full text-center">
+<div class= "w-full text-center ">
   <h1 class= "text-textcolor text-7xl">診断結果</h1>
 
-  <div class=" text-4xl pt-16 pb-16 ">
-  <p>靴のサイズ</p>
-  <p class= "pt-5"><%= @shoes %></p>
+  <div class=" pt-16 pb-16 text-textcolor">
+  <p class = "text-4xl">靴のサイズ</p>
+  <p class= "pt-5 text-6xl"><%= @shoes %>cm</p>
   </div>
-  <div class="pt-16 pb-16 text-4xl ">
-  <p>ボール</p>
-  <p class = "pt-5 "><%= @ball.ball_size %>ポンド</p>
+  <div class="pt-16 pb-16  text-textcolor">
+  <p class = "text-4xl">ボール</p>
+  <p class = "pt-5 text-6xl"><%= @ball.ball_size %>ポンド</p>
   </div>
-  <div class = "float-right text-5xl">
-  <p class = "pt-40 float-left pr-20">それではボーリングをお楽しみください</p>
-  <%= image_tag 'bowling_nageru_man.png',class: "float-right pr-30", width: "400"  %>
+  <div class = "float-right text-5xl text-textcolor">
+  <p class = "pt-40 float-left pr-60">それではボーリングをお楽しみください</p>
+  <%= image_tag 'bowling_nageru_man.png',class: "float-right ", width: "400"  %>
   </div>
 
 </div>
