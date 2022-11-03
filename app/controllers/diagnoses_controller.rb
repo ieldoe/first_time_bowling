@@ -1,23 +1,18 @@
 class DiagnosesController < ApplicationController
-  #before_action :set_b, only: [:show, :create]
-  #before_action :set_s, only: [:show, :create]
-  def show
 
-    #@bresults = @b.result
-    #@sresults = @s.result
+  def show
+  @ball = Ball.find_by(params[:body_weight])
+  @shoes = params[:leg_size].to_i + 0.5
+
+
   end
 
   def create
 
   end
-
   private
-
-  def set_b
-    #@s = Ball.ransack(params[:q])
-  end
-  def set_s
-    #@b = Shoe.ransack(params[:q])
+  def ball_params
+    params.require(:ball).permit(:body_weight)
   end
 
 end

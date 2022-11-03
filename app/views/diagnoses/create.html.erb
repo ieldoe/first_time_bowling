@@ -2,7 +2,7 @@
   <div class= "pt-6 pb-6">
     <p class= "text-textcolor font-semibold text-5xl" >体重と靴のサイズを入力してください</p>
   </div>
-    <%= form_with url: diagnoses_path do |f| %>
+    <%= form_with( url: diagnoses_path, method: :get, local: true) do |f| %>
       <div class= "pt-16 pb-16">
         <%= f.label "足のサイズ", class: "block text-textcolor font-semibold text-3xl"%>
         <%= f.text_field :leg_size, class: "border-textcolor border-4 rounded text-2xl", size: "40x20" %>

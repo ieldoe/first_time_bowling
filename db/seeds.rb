@@ -6,17 +6,17 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 balls = [
-  { ball_size: 6, body_weight: 27  },
-  { ball_size: 7, body_weight: 32  },
-  { ball_size: 8, body_weight: 36  },
-  { ball_size: 9, body_weight: 40  },
-  { ball_size: 10, body_weight: 45  },
-  { ball_size: 11, body_weight: 50  },
-  { ball_size: 12, body_weight: 54  },
-  { ball_size: 13, body_weight: 58  },
-  {ball_size: 14, body_weight: 63  },
-  { ball_size: 15, body_weight: 68  },
-  { ball_size: 16, body_weight: 72  },
+  { ball_size: 6, body_weight: "27 ~ 31"  },
+  { ball_size: 7, body_weight: "32 ~ 35" },
+  { ball_size: 8, body_weight: "36 ~ 39"  },
+  { ball_size: 9, body_weight: "40 ~ 44" },
+  { ball_size: 10, body_weight: "45 ~ 49"  },
+  { ball_size: 11, body_weight: "50 ~ 53"  },
+  { ball_size: 12, body_weight: "54 ~ 57"  },
+  { ball_size: 13, body_weight: "58 ~ 62"  },
+  { ball_size: 14, body_weight: "63 ~ 67" },
+  { ball_size: 15, body_weight: "68 ~  71" },
+  { ball_size: 16, body_weight: "72"  }
 ]
 Ball.create(balls)
 
