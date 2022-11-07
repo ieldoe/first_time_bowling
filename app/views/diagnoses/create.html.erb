@@ -5,11 +5,11 @@
     <%= form_with( url: diagnoses_path, method: :get, local: true) do |f| %>
       <div class= "pt-16 pb-16">
         <%= f.label "足のサイズ", class: "block text-textcolor font-semibold text-3xl"%>
-        <%= f.text_field :leg_size, class: "border-textcolor border-4 rounded text-2xl", size: "40x20" %>
+        <%= f.number_field :leg_size, class: "border-textcolor border-4 rounded text-2xl", size: "40x20", step: "0.1", required: "required"%>
       </div>
       <div class= "pt-16 pb-16 ">
         <%= f.label "体重", class: "block text-textcolor font-semibold  text-3xl"%>
-        <%= f.text_field :body_weight, class: "border-textcolor  rounded border-4 text-2xl", size: "40x20" %>
+        <%= f.number_field :body_weight, class: "border-textcolor  rounded border-4 text-2xl", size: "40x20", step: "0.1", required: "required"%>
       </div>
         <%= f.submit "診断", class: "inline-block px-2 py-1 bg-buttoncolor text-textcolor font-semibold rounded hover:bg-yellow-500 text-5xl"%>
     <% end %>

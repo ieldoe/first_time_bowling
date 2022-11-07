@@ -1,11 +1,12 @@
 class DiagnosesController < ApplicationController
 
   def show
-    if params[:body_weight].to_i < 73
-      @ball = Ball.find_by("body_weight like '%#{params[:body_weight]}%'")
-
-    else
+    if params[:body_weight].to_i > 73
       @ball = Ball.find_by(body_weight: "72")
+    elsif params[:body_weight].to_i < 26
+      @ball = Ball.find_by(body_weight: "26")
+    else
+      @ball = Ball.find_by("body_weight like '%#{params[:body_weight]}%'")
     end
     @shoes = params[:leg_size].to_i + 0.5
   end
