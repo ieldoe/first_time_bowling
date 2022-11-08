@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_02_115612) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_08_121621) do
   create_table "balls", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.text "body_weight"
     t.integer "ball_size"
@@ -19,8 +19,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_02_115612) do
   end
 
   create_table "shoes", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
-    t.integer "leg_size"
-    t.integer "shoes_size"
+    t.float "leg_size"
+    t.float "shoes_size"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
