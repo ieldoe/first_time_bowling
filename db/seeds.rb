@@ -52,7 +52,27 @@ shoes = [
   { leg_size: 28.5, shoes_size: 29  },
   { leg_size: 29, shoes_size: 29.5  },
   { leg_size: 29.5, shoes_size: 30  },
-  { leg_size: 30, shoes_size: 30.5  }
+  { leg_size: 30, shoes_size: 30.5  },
+  { leg_size: 30.5, shoes_size: 31  },
+  { leg_size: 31, shoes_size: 31.5  },
+  { leg_size: 31.5, shoes_size: 32  },
+  { leg_size: 32, shoes_size: 32.5  },
+  { leg_size: 32.5, shoes_size: 33  },
+  { leg_size: 33, shoes_size: 33.5  },
+  { leg_size: 33.5, shoes_size: 34  },
+  { leg_size: 34, shoes_size: 34.5  },
+  { leg_size: 34.5, shoes_size: 35  },
+  { leg_size: 35, shoes_size: 35.5  },
+  { leg_size: 35.5, shoes_size: 36  },
+  { leg_size: 36, shoes_size: 36.5  },
+  { leg_size: 36.5, shoes_size: 37  },
+  { leg_size: 37, shoes_size: 37.5  },
+  { leg_size: 37.5, shoes_size: 38  },
+  { leg_size: 38, shoes_size: 38.5  },
+  { leg_size: 38.5, shoes_size: 39  },
+  { leg_size: 39, shoes_size: 39.5  },
+  { leg_size: 39.5, shoes_size: 40  },
+  { leg_size: 40, shoes_size: 40.5  },
 
 ]
 

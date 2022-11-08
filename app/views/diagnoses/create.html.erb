@@ -5,7 +5,7 @@
     <%= form_with( url: diagnoses_path, method: :get, local: true) do |f| %>
       <div class= "pt-16 pb-16">
         <%= f.label "足のサイズ", class: "block text-textcolor font-semibold text-3xl"%>
-        <%= f.number_field :leg_size, class: "border-textcolor border-4 rounded text-2xl", size: "40x20", step: "0.1", required: "required"%>
+        <%= f.number_field :leg_size, class: "border-textcolor border-4 rounded text-2xl", size: "40x20", step: "0.5", required: "required", min: "14"%>
       </div>
       <div class= "pt-16 pb-16 ">
         <%= f.label "体重", class: "block text-textcolor font-semibold  text-3xl"%>
