@@ -1,23 +1,17 @@
 class DiagnosesController < ApplicationController
-  #before_action :set_b, only: [:show, :create]
-  #before_action :set_s, only: [:show, :create]
-  def show
 
-    #@bresults = @b.result
-    #@sresults = @s.result
+  def show
+    if params[:body_weight].to_i > 73
+      @ball = Ball.find_by(body_weight: "72")
+    elsif params[:body_weight].to_i < 26
+      @ball = Ball.find_by("body_weight like '%27%'")
+    else
+      @ball = Ball.find_by("body_weight like '%#{params[:body_weight]}%'")
+    end
+    @shoes = Shoe.find_by(leg_size: params[:leg_size])
   end
 
   def create
 
   end
-
-  private
-
-  def set_b
-    #@s = Ball.ransack(params[:q])
-  end
-  def set_s
-    #@b = Shoe.ransack(params[:q])
-  end
-
 end

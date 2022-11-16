@@ -6,17 +6,17 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 balls = [
-  { ball_size: 6, body_weight: 27  },
-  { ball_size: 7, body_weight: 32  },
-  { ball_size: 8, body_weight: 36  },
-  { ball_size: 9, body_weight: 40  },
-  { ball_size: 10, body_weight: 45  },
-  { ball_size: 11, body_weight: 50  },
-  { ball_size: 12, body_weight: 54  },
-  { ball_size: 13, body_weight: 58  },
-  {ball_size: 14, body_weight: 63  },
-  { ball_size: 15, body_weight: 68  },
-  { ball_size: 16, body_weight: 72  },
+  { ball_size: 6, body_weight: "27,28,29,30 31"  },
+  { ball_size: 7, body_weight: "32,33,34,35" },
+  { ball_size: 8, body_weight: "36,37,38,39"  },
+  { ball_size: 9, body_weight: "40,41,42,43 44" },
+  { ball_size: 10, body_weight: "45,46,47,48,49"  },
+  { ball_size: 11, body_weight: "50,51,52,53"  },
+  { ball_size: 12, body_weight: "54,55,56,57"  },
+  { ball_size: 13, body_weight: "58,59,60,61,62"  },
+  { ball_size: 14, body_weight: "63,64,65,66,67" },
+  { ball_size: 15, body_weight: "68,69,70,71" },
+  { ball_size: 16, body_weight: "72"  }
 ]
 Ball.create(balls)
 
@@ -52,7 +52,27 @@ shoes = [
   { leg_size: 28.5, shoes_size: 29  },
   { leg_size: 29, shoes_size: 29.5  },
   { leg_size: 29.5, shoes_size: 30  },
-  { leg_size: 30, shoes_size: 30.5  }
+  { leg_size: 30, shoes_size: 30.5  },
+  { leg_size: 30.5, shoes_size: 31  },
+  { leg_size: 31, shoes_size: 31.5  },
+  { leg_size: 31.5, shoes_size: 32  },
+  { leg_size: 32, shoes_size: 32.5  },
+  { leg_size: 32.5, shoes_size: 33  },
+  { leg_size: 33, shoes_size: 33.5  },
+  { leg_size: 33.5, shoes_size: 34  },
+  { leg_size: 34, shoes_size: 34.5  },
+  { leg_size: 34.5, shoes_size: 35  },
+  { leg_size: 35, shoes_size: 35.5  },
+  { leg_size: 35.5, shoes_size: 36  },
+  { leg_size: 36, shoes_size: 36.5  },
+  { leg_size: 36.5, shoes_size: 37  },
+  { leg_size: 37, shoes_size: 37.5  },
+  { leg_size: 37.5, shoes_size: 38  },
+  { leg_size: 38, shoes_size: 38.5  },
+  { leg_size: 38.5, shoes_size: 39  },
+  { leg_size: 39, shoes_size: 39.5  },
+  { leg_size: 39.5, shoes_size: 40  },
+  { leg_size: 40, shoes_size: 40.5  },
 
 ]
 

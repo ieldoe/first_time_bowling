@@ -76,7 +76,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_bot_rails'
-  gem 'webdrivers', '~> 5.0', require: false
+  gem 'webdrivers'
   gem 'faker'
 end
 
