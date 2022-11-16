@@ -9,4 +9,6 @@
 #  updated_at  :datetime         not null
 #
 class Ball < ApplicationRecord
+  validates :ball_size, uniqueness: true, presence: true
+  validates :body_weight, uniqueness: true, presence: true
 end

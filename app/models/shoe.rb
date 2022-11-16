@@ -9,4 +9,6 @@
 #  updated_at :datetime         not null
 #
 class Shoe < ApplicationRecord
+  validates :leg_size, uniqueness: true, presence: true
+  validates :shoes_size, uniqueness: true, presence: true
 end
