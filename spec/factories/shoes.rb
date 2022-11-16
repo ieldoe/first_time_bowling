@@ -10,7 +10,7 @@
 #
 FactoryBot.define do
   factory :shoe do
-    leg_size { 1 }
-    shoes_size { 1 }
+    leg_size { 23.5 }
+    shoes_size { 24 }
   end
 end

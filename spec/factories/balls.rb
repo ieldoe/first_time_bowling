@@ -10,7 +10,7 @@
 #
 FactoryBot.define do
   factory :ball do
-    body_weight { 1 }
-    ball_size { 1 }
+    body_weight { 56 }
+    ball_size { 12 }
   end
 end
